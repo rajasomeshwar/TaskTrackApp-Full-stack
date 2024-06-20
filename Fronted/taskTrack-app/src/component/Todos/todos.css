@@ -1,0 +1,14 @@
+footer {
+  bottom: 0;
+  height: 10px;
+  width: 90%;
+
+  position: absolute;
+}
+input,
+label,
+button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 30px;
+}

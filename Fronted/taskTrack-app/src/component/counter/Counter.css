@@ -1,0 +1,15 @@
+.IncButton {
+  font-size: 30px;
+  background: purple;
+  color: white;
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+  border-color: black;
+  border-width: 5px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.Display {
+  font-size: 100px;
+}
