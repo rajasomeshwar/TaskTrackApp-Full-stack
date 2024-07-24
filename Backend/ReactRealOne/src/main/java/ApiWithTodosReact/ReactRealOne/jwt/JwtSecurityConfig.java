@@ -44,12 +44,11 @@ public class JwtSecurityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity, HandlerMappingIntrospector introspector) throws Exception {
         
-        // h2-console is a servlet 
-        // https://github.com/spring-projects/spring-security/issues/12310
+        
         return httpSecurity
                 .authorizeHttpRequests(auth -> auth
                     .requestMatchers("/authenticate").permitAll()
-                   // h2-console is a servlet and NOT recommended for a production
+                  
                     .requestMatchers(HttpMethod.OPTIONS,"/**")
                     .permitAll()
                     .anyRequest()
@@ -76,8 +75,8 @@ public class JwtSecurityConfig {
 
     @Bean
     public UserDetailsService userDetailsService() {
-        UserDetails user = User.withUsername("in28minutes")
-                                .password("{noop}dummy")
+        UserDetails user = User.withUsername("user")
+                                .password("{noop}password")
                                 .authorities("read")
                                 .roles("USER")
                                 .build();
