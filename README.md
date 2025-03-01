@@ -1,11 +1,7 @@
-#!/bin/bash
-
-# Generate README.md
-cat <<EOL > README.md
-# Project Name
+echo "# Project Name
 
 ## Description
-This project consists of a backend built with Spring Boot and a frontend built with React. Below are the steps to run both services.
+This project consists of a **backend (Spring Boot)** and a **frontend (React.js)**. Below are the steps to set up and run both services.
 
 ---
 
@@ -14,14 +10,14 @@ This project consists of a backend built with Spring Boot and a frontend built w
 ### Prerequisites
 - Java 17+ installed
 - Maven installed
-- MySQL or any required database configured
+- MySQL database configured
 
 ### Steps to Run
 1. Navigate to the backend directory:
    \`\`\`bash
    cd Backend/ReactRealOne
    \`\`\`
-2. Configure database connection in \`application.properties\`.
+2. Configure database settings in \`application.properties\`.
 3. Build and run the project:
    \`\`\`bash
    mvn clean install
@@ -54,9 +50,9 @@ This project consists of a backend built with Spring Boot and a frontend built w
 ---
 
 ## Running the Full Stack
-1. Start the backend first.
-2. Start the frontend after the backend is running.
-3. Access the application via \`http://localhost:3000\`.
+1. Start the **backend** first.
+2. Start the **frontend** after the backend is running.
+3. Open the application at \`http://localhost:3000\`.
 
 ---
 
@@ -71,6 +67,4 @@ Feel free to contribute by submitting a pull request.
 
 ## License
 This project is licensed under the MIT License.
-EOL
-
-echo "README.md file has been created successfully!"
+" > README.md
