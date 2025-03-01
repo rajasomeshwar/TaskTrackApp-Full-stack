@@ -1,7 +1,18 @@
-echo "# Project Name
+echo "# TaskTrack
 
 ## Description
-This project consists of a **backend (Spring Boot)** and a **frontend (React.js)**. Below are the steps to set up and run both services.
+TaskTrack is a **task management system** that helps users efficiently track and manage tasks.  
+It consists of a **backend (Spring Boot)** and a **frontend (React.js)**.  
+Below are the steps to set up and run both services.
+
+---
+
+## Features
+- User authentication and role-based access
+- Task creation, assignment, and tracking
+- Status updates and deadline management
+- Visual representation of tasks
+- Secure API integration using JWT
 
 ---
 
@@ -56,9 +67,29 @@ This project consists of a **backend (Spring Boot)** and a **frontend (React.js)
 
 ---
 
+## Advantages of TaskTrack
+- **Efficient Task Management:** Easily create and assign tasks.
+- **Real-time Updates:** View task progress with live updates.
+- **User-friendly UI:** Intuitive and easy to navigate.
+- **Secure Authentication:** Uses JWT for security.
+- **Scalable:** Can handle multiple users and tasks efficiently.
+
+---
+
+## How to Use TaskTrack
+1. **Login/Register:** Create an account or log in.
+2. **Create Tasks:** Add tasks with details such as priority, deadline, and assignee.
+3. **Assign Tasks:** Assign tasks to team members.
+4. **Track Progress:** Update status and view real-time progress.
+5. **Manage Deadlines:** Get alerts for overdue tasks.
+
+---
+
 ## Technologies Used
 - **Backend:** Java, Spring Boot, MySQL
 - **Frontend:** React, JavaScript, Chakra UI
+- **Security:** JWT Authentication
+- **State Management:** React Context API
 
 ---
 
